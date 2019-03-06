@@ -1,0 +1,148 @@
+html {
+    height: 110%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 0;
+    width: 100% ;
+    box-sizing: border-box;
+      
+}
+.helpbtn{
+    width: 100px;
+    float: right;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: green;
+    color: white;
+    box-sizing: border-box;
+}
+.helpbtn:hover{
+  color:green;
+  background-color: white;
+  border: 2px solid green;
+}
+
+nav {
+    background-color: green; 
+    height: 50px;
+    box-sizing: border-box;
+
+}
+nav li{
+    float: left;
+    list-style: none;
+    text-align: center;
+    border-left: 1px solid white;
+    width: 100px;
+    height: 30px;   
+}
+nav a{
+    padding-top: 8px;
+    height: inherit;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+nav a:hover{
+    background-color: white;
+    color: green;
+}
+.main{
+    min-height: 480px;
+    margin-bottom: 2px;
+    padding-top: 10%;
+    background-image: url("https://www.safaricom.co.ke/Corporate-Image-homepage.jpg?Lo0P=713f351b2b478f0fe420a77c439f3973");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    border: 2px solid white;
+    
+}
+.main:hover{
+    background-color: grey;
+    opacity: 0.9;
+}
+.main h1{
+   background-color: white;
+   opacity: 0.7;
+   width: 40%;
+   border-radius: 50px;
+}
+
+.content{
+   width:80%;
+   margin: 0 auto;
+   box-sizing: border-box;
+   margin-bottom: 10px;
+   height: 350px;
+   text-align: center;
+   display: flex;
+   align-items: stretch; 
+   font-family: helvetica;  
+}
+.content > div{
+    background-color: lightgray;
+    margin: 2px;
+    width: 33%;
+    padding: 0.25%;
+    box-shadow: 2px 0px 2px grey;
+ 
+}
+.content img{
+    width: 100%;
+    margin: 0 auto;
+}
+.content a{
+   text-decoration: none;
+   color: black;
+   display: block;
+   height: 15px;
+}
+.content a:hover{
+    color:green;
+    background-color: white;
+}
+.sharesinfo{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.footer{
+    min-height: 100px;
+    display: flex;
+    align-items: stretch;
+    background-color:#191919;
+    color: white;
+    width: 100%;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer div{
+    width: 30%;
+}
+.footerhead{
+    margin-bottom: 10px;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    color: green;
+    text-decoration: underline;
+
+}
+li{
+    list-style: none;
+}
